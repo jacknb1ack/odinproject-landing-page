@@ -44,3 +44,44 @@ a {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+/* hero section */
+
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  padding: 24px 60px;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero p {
+  margin: 10px 0;
+}
+
+.hero button {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.image {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 16px;
+  background-color: #5f656e;
+}
