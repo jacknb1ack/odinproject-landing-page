@@ -1,11 +1,46 @@
 /* global style */
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   width: 100%;
   font-family: Roboto;
 }
 
 body {
-  width: 80%;
-  min-width: 1200px;
+}
+
+/* Header style */
+
+header {
+  padding: 24px 60px;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+menu {
+  display: flex;
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 }
