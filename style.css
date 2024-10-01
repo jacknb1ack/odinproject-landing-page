@@ -10,6 +10,13 @@ html {
   font-family: Roboto;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 /* Header style */
 
 header {
@@ -143,10 +150,34 @@ a {
   text-align: right;
 }
 
+/* action section */
+.action {
+  padding: 24px 60px;
+  color: white;
+}
+
+.action-content {
+  display: flex;
+  background-color: #3882f6;
+  justify-content: space-between;
+  padding: 24px 60px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.action button {
+  background-color: #3882f6;
+  color: white;
+  border: 1px white solid;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
 /* footer */
 footer {
   background-color: #1f2937;
   color: white;
   text-align: center;
   padding: 24px 0;
+  margin-top: auto;
 }
