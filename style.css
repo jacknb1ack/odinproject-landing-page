@@ -82,44 +82,45 @@ a {
 }
 
 /* information section */
-
 .information {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 25px auto;
-  gap: 25px;
+  padding: 24px;
 }
-
 .information h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  text-align: center;
+  margin: 15px auto;
 }
 
 .container {
   display: flex;
-  padding: 15px 60px;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .items {
+  padding: 5px 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 .items p {
   text-align: center;
-  padding: 0;
+  width: 150px;
+  padding: 0 auto;
+  margin: 15px auto;
 }
 
 .image-info {
   width: 150px;
   height: 150px;
-  border: 2px blue solid;
+  border: 2px #3882f6 solid;
   border-radius: 10px;
-  padding: 0 auto;
+  margin: 15px auto;
 }
 
 /* quote section */
