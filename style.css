@@ -127,6 +127,9 @@ a {
 
 .quote {
   background-color: #e5e7eb;
+  padding: 48px 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote-text p {
@@ -137,4 +140,5 @@ a {
 
 .quote-author p {
   font-weight: 700;
+  text-align: right;
 }
