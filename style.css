@@ -10,9 +10,6 @@ html {
   font-family: Roboto;
 }
 
-body {
-}
-
 /* Header style */
 
 header {
@@ -52,8 +49,6 @@ a {
   color: #f9faf8;
   display: flex;
   padding: 24px 60px;
-  justify-content: space-between;
-  flex: 1;
 }
 
 .hero h1 {
@@ -76,12 +71,69 @@ a {
 .image {
   width: 500px;
   height: 200px;
-  margin: auto;
 
+  align-self: end;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  margin-left: 16px;
+  margin-left: auto;
   background-color: #5f656e;
+}
+
+/* information section */
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto;
+  gap: 25px;
+}
+
+.information h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  padding: 15px 60px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.items p {
+  text-align: center;
+  padding: 0;
+}
+
+.image-info {
+  width: 150px;
+  height: 150px;
+  border: 2px blue solid;
+  border-radius: 10px;
+  padding: 0 auto;
+}
+
+/* quote section */
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text p {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote-author p {
+  font-weight: 700;
 }
