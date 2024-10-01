@@ -1,0 +1,11 @@
+/* global style */
+
+html {
+  width: 100%;
+  font-family: Roboto;
+}
+
+body {
+  width: 80%;
+  min-width: 1200px;
+}
